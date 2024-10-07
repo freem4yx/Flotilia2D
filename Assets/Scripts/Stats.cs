@@ -5,8 +5,8 @@ using UnityEngine;
 public class Stats : MonoBehaviour
 {
     public int maxHP = 100;
-    public int hp;
-    public int damage = 15;
+    public static int hp;
+    public int damage;
 
     public HealthBar healthBar;
 
